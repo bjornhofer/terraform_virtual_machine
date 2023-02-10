@@ -1,3 +1,22 @@
+// Service Principal
+variable "subscription_id" {
+  type = string
+}
+
+variable "client_id" {
+  type = string
+}
+
+variable "client_secret" {
+  type = string
+}
+
+variable "tenant_id" {
+  type = string
+}
+
+// Virtual Machine
+
 variable "virtual_machine_name" {
   type = string
 }
